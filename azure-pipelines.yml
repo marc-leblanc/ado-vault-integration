@@ -27,6 +27,7 @@ steps:
     strUrl: 'https://vault.marc-leblanc.team.arctiq.ca:8200'
     ignoreCertificateChecks: false
     strAuthType: 'approle'
+    strAuthPath: 'auth/approle/role/'
     strRoleID: 'ado-integration'
     strSecretID: '0eeecbec-c6c0-6b7b-5092-e26f739c186f'
     strKVEnginePath: 'kv-v2'
