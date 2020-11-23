@@ -21,3 +21,16 @@ steps:
 - script: |
      env
   displayName: 'Look at ENV vars'
+
+- task: VaultReadKV@2
+  inputs:
+    strUrl: 'https://vault.marc-leblanc.team.arctiq.ca:8200'
+    ignoreCertificateChecks: false
+    strAuthType: 'approle'
+    strRoleID: 'ado-integration'
+    strSecretID: '0eeecbec-c6c0-6b7b-5092-e26f739c186f'
+    strKVEnginePath: 'kv-v2'
+    kvVersion: 'v2'
+    strSecretPath: '/secrets'
+    strPrefixType: 'custom'
+    replaceCR: false
