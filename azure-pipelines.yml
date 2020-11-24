@@ -27,7 +27,7 @@ steps:
     strUrl: 'https://vault.marc-leblanc.team.arctiq.ca:8200'
     ignoreCertificateChecks: false
     strAuthType: 'approle'
-    strAuthPath: 'approle/role'
+    strAuthPath: 'approle'
     strRoleID: '7f99d535-7b94-6cf1-5a05-82b3e8005714'
     strSecretID: 'c504f498-2fe6-c283-fdb7-7196ab559a71'
     strKVEnginePath: '/secrets/'
