@@ -32,7 +32,7 @@ steps:
     strSecretID: 'e9dc2703-d790-aff8-79c8-3bf7a1285f5d'
     strKVEnginePath: '/kv-v2/'
     kvVersion: 'v2'
-    strSecretPath: '/secret/hello'
+    strSecretPath: '/secret/'
     strPrefixType: 'custom'
     replaceCR: false
 
