@@ -32,6 +32,6 @@ steps:
     strSecretID: 'b7a2f9d2-6d8a-656a-906a-f5ba52ae74b0'
     strKVEnginePath: 'kv-v2'
     kvVersion: 'v2'
-    strSecretPath: '/secrets'
+    strSecretPath: '/secret/hello'
     strPrefixType: 'custom'
     replaceCR: false
