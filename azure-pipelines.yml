@@ -30,9 +30,9 @@ steps:
     strAuthPath: 'approle'
     strRoleID: '7f99d535-7b94-6cf1-5a05-82b3e8005714'
     strSecretID: '78279dec-d6cb-be10-4ec5-d288da05ba49'
-    strKVEnginePath: '/secrets/'
+    strKVEnginePath: '/kv-v2/'
     kvVersion: 'v2'
-    strSecretPath: '/kv-v2/secret/hello'
+    strSecretPath: '/secret/hello'
     strPrefixType: 'custom'
     replaceCR: false
 
