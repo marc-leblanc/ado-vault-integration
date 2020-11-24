@@ -29,7 +29,7 @@ steps:
     strAuthType: 'approle'
     strAuthPath: 'approle'
     strRoleID: '7f99d535-7b94-6cf1-5a05-82b3e8005714'
-    strSecretID: 'e9dc2703-d790-aff8-79c8-3bf7a1285f5d'
+    strSecretID: 'd0a86f8d-cb2f-200c-8250-c5d63655efb1'
     strKVEnginePath: '/kv-v2/'
     kvVersion: 'v2'
     strSecretPath: '/secret/'
